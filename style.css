@@ -1,1 +1,75 @@
 
+*{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.container{
+    margin:20px;
+}
+.navbar__title,.navbar__desc{
+    margin:0;
+    padding:2px;
+    text-align: center;  
+}
+.navbar{
+    background-color: black;
+    color:white;
+    padding:10px;
+    text-align: center;
+}
+.navbar__desc{
+    color:grey;
+    font-weight: 100;
+}
+.menu{
+    margin-top: 20px;
+    text-align: center;
+}
+.menu__item{
+    border:solid black 1px;
+    display:inline-block;
+    width:200px;
+    text-align: center;
+}
+.menu__para{
+    font-weight:100;
+}
+.menu__item button{
+    border:none;
+    background-color:black;
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right:20px;
+}
+.footer{
+    background-color:black;
+    color:white;
+    margin:20px;
+    padding:20px;
+    text-align: center;
+}
+.footer__title{
+    margin:0;
+    padding:0;
+}
+
+.footer__desc{
+    display:inline-block;
+    text-align: center;
+}
+
+.footer__send{
+    /* display:block;
+    margin-left:420px; */
+    background-color: yellow;
+    border:none;
+    width:500px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    margin-top: 5px;
+}
